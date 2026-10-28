@@ -60,6 +60,6 @@ router.patch("/api/book/:id",async(req,res)=>{
     catch(error){
         res.status(500).json({message:"Error updating book",error})
     }
-})
+});
 
 module.export=router()
